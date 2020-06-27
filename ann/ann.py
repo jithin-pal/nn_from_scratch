@@ -6,6 +6,7 @@ learning_rate = 0.01 #lr
 def netowrk_prediction(inputs, weights):
     pred = inputs.dot(weights)  #weighted num of input and weights
     return pred
+    
 true_value = 2
 toes = np.array([8.5, 9.5, 9.9, 9.0])
 wlrec = np.array([0.65, 0.8, 0.8, 0.9])
